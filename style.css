@@ -109,6 +109,19 @@
     .title-paragraph .dot{
         font-size: var(--font-size-lg);
     }
+    .links{
+        color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        background-color: #252830;
+        width: 200px;
+        margin-left: 550px;
+        align-content: center;
+        padding: 10px;
+        border-radius: 12px;
+    }
     .grid-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -140,3 +153,48 @@
     .rocket{
         margin-top: 10px;
     }
+    @media only screen and (max-width: 600px) {
+        .header {
+        height: 300px;
+        }
+        .navbar {
+        flex-direction: column;
+        align-items: center;
+        }
+        .logo {
+        font-size: 24px;
+        }
+        .search-form {
+        margin-top: 10px;
+        }
+        .search-form input[type="text"] {
+        width: 100%;
+        }
+        .search-form button[type="submit"] {
+        width: 100%;
+        }
+        .list-item-for-sign {
+        margin-top: 10px;
+        }
+        .title {
+        font-size: 24px;
+        }
+        .title-paragraph {
+        font-size: 16px;
+        }
+        .featured {
+        height: 300px;
+        }
+        .other-three {
+        height: 300px;
+        }
+        .rocket {
+        height: 300px;
+        }
+        .newsletter-form input[type="email"] {
+        width: 100%;
+        }
+        .newsletter-form button[type="submit"] {
+        width: 100%;
+        }
+        }  
